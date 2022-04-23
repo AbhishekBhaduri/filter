@@ -1,0 +1,23 @@
+h3 {
+    font-size: 25px !important;
+}
+
+.btn-success:hover {
+    background-color: rgb(166, 214, 21);
+}
+
+canvas {
+    animation-name: filter_app;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes filter_app {
+    from {
+        box-shadow: 1px 1px 38px cyan;
+    }
+
+    to {
+        box-shadow: 1px 1px 38px rgb(33, 121, 151);
+    }
+}
